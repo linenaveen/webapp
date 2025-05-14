@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive car website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header"id="header">
+         <nav class=" nav container">
+            <a href="#"class="nav__logo">AVENTADOR</a>
+
+            <div class="nav__menu"id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#about"class="nav__link">About</a>
+                  </li>
+
+                  <li>
+                     <a href="#models"class="nav__link">Models</a>
+                  </li>
+
+                  <li>
+                     <a href="#info"class="nav__link">Information</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact"class="nav__link">Contact</a>
+                  </li>
+               </ul>
+               <!-- close button -->
+                <div class="nav__close"id="nav-close">
+                  <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+            <!-- toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-fill"></i>
+             </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home grid section" id="home">
+            <img src="assets/IMG/home-bg.png" alt="img" class="home__bg">
+            <div class="home__gradient"></div>
+            
+            <div class="home__data">
+               <h3 class="home__subtitle"> CHOOSE YOUR AVENTADOR</h3>
+               <h1 class="home__title">AVENTADOR</h1>
+            </div>
+
+            <div class="home__swiper swiper">
+               <div class="swiper-wrapper">
+                  <article class="home__article swiper-slide">
+                     <img src="assets/IMG/home-car-1.png" alt="image" class="home__img">
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <img src="assets/IMG/home-car-2.png" alt="image" class="home__img">
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <img src="assets/IMG/home-car-3.png" alt="image" class="home__img">
+                  </article>
+
+                  <article class="home__article swiper-slide">
+                     <img src="assets/IMG/home-car-4.png" alt="image" class="home__img">
+                  </article>
+               </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+            <a href="#about" class="home__button">
+               <span>START</span>
+               <i class="ri-arrow-down-s-line"></i>
+            </a>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section_title about__title">
+                     DESIGNED TO <br>
+                     <span>GO BEYOND</span><br>
+                     PERFORMANCE
+                  </h2> 
+
+                  <p class="about__description">
+                     Revolutionary thinking is at the heart of 
+                     every Lamborghini car idea, whether it is 
+                     the design inspired by the aerospace 
+                     industry or the technologies applied to 
+                     natural aspiration. 
+                  </p>
+
+                  <a href="#" class="button button__ghost">
+                     DETAILS <i class="ri-arrow-right-s-line"></i>
+                  </a>
+               </div>
+
+               <div class="about__video">
+                  <video src="assets/IMG/about-vid.mp4" autoplay loop muted class="about__file"></video>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== MODELS ====================-->
+         <section class="models section" id="models">
+            <h2 class="section__title">
+               INSPIRED BY <br> 
+               COLORS OF NATURE    
+            </h2>
+
+            <div class="models__container container grid">
+               <article class="models__card">
+                  <img src="assets/IMG/model-car-1.png" alt="image" class="models__img">
+                  <div class="models__gardient"></div>
+
+                  <div class="models__data">
+                    <h3 class="models__name">Silver Aventador</h3>
+                    <span class="models__info">355km/s</span>
+                  </div>
+               </article>
+            
+
+            
+               <article class="models__card">
+                  <img src="assets/IMG/model-car-2.png" alt="image" class="models__img">
+                  <div class="models__gardient"></div>
+
+               <div class="models__data">
+                  <h3 class="models__name">Yellow Aventador</h3>
+                  <span class="models__info">355km/s</span>
+               </div>  
+               </article>
+            
+
+           
+               <article class="models__card">
+                  <img src="assets/IMG/model-car-3.png" alt="image" class="models__img">
+                  <div class="models__gardient"></div>
+
+               <div class="models__data">
+                  <h3 class="models__name">Blue Aventador</h3>
+                  <span class="models__info">355km/s</span>
+               </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== INFORMATION ====================-->
+         <section class="info section" id="info">
+            <span class="section__subtitle">CHOOSE YOUR AVENTADOR</span>
+            <h2 class="section__title info__title">   
+               AVENTADOR LP <br>
+               780-4 ULTIMAE
+            </h2>
+
+            <div class="info__container container grid">
+               <div class="info__content">
+                  <h1 class="info__number">780-4</h1>
+                  <img src="assets/IMG/info-car.png" alt="image" class="info__img">
+               </div>
+
+             <div class="info__data">
+               <div class="info__group">
+                  <h3>POWER (KW)</h3>
+                  <p>780 CV (574 kW)<br> 8.500 rpm</p>
+               </div>
+         
+               <div class="info__group">
+                  <h3>MAX. SPEED</h3>
+                  <p>355 km/h</p>
+               </div>
+       
+               <div class="info__group">
+                  <h3>0-100 KM/H</h3>
+                  <p>2.8 - 2.9s</p>
+               </div>
+            </div>
+          </div>   
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+               <div class="contact__content">
+                  <h2 class="section__title contact__title">
+                     SUBSCRIBE TO GET <br> 
+                     YOUR AVENTADOR
+                  </h2>
+
+                  <form action="" class="contact__form gird">
+                     <div class="contact__inputs grid">
+                        <div class="contact__box">
+                           <label for="name" class="contact__label">Name</label>
+                           <input type="name" id="name" placeholder="Enter name" class="contact__input">
+                        </div>
+                        <div class="contact__box">
+                           <label for="password" class="contact__label">password</label>
+                           <input type="password"id="name"placeholder="Enter password" class="contact__input">
+                        </div>
+                        <div class="contact__box">
+                           <label for="email" class="contact__label">Email</label>
+                           <input type="email"id="name"placeholder="Enter email" class="contact__input">
+                        </div>
+                     </div>
+
+                     <button class="button contact__button">
+                      SEND EMAIL<i class="ri-arrow-right-s-line"></i>
+                     </button>
+                  </form>
+               </div>
+
+               <img src="assets/IMG/contact-car.png" alt="image" class="contact__img">
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <a href="" class="footer__logo">AVENTADOR</a>
+
+            <ul class="footer__links">
+               <li>
+                  <a href="#" class="footer__link"></a>
+               </li>
+               
+               <li>
+                  <a href="#" class="footer__link">Privacy & Legal</a>
+               </li>
+
+                <li>
+                  <a href="#" class="footer__link">Contact</a>
+               </li>
+
+                <li>
+                  <a href="#" class="footer__link">Locations</a>
+               </li>
+
+               <li>
+                  <a href="#" class="footer__link">News</a>  
+               </li>
+
+               <li>
+                  <a href="#"class="footer__link">Forums</a>
+               </li> 
+            </ul>
+
+            <div class="footer__social">
+               <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                  <i class="ri- ri-facebook-circle-line"></i>
+               </a>
+
+               <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-line"></i>
+               </a>
+
+               <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-twitter-x-line"></i>
+               </a>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved 
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/JS/scrollreveal.min.js"></script>
+
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/JS/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
